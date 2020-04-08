@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA13F9E62429EECE000F4FFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F9E52429EECE000F4FFF /* AppDelegate.m */; };
+		EA13F9E92429EECE000F4FFF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F9E82429EECE000F4FFF /* SceneDelegate.m */; };
+		EA13F9EC2429EECE000F4FFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F9EB2429EECE000F4FFF /* ViewController.m */; };
+		EA13F9EF2429EECE000F4FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA13F9ED2429EECE000F4FFF /* Main.storyboard */; };
+		EA13F9F12429EED2000F4FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA13F9F02429EED2000F4FFF /* Assets.xcassets */; };
+		EA13F9F42429EED2000F4FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA13F9F22429EED2000F4FFF /* LaunchScreen.storyboard */; };
+		EA13F9F72429EED2000F4FFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F9F62429EED2000F4FFF /* main.m */; };
+		EA13FA002429EFB2000F4FFF /* CAShapeLayer+XYColorOC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F9FE2429EFB2000F4FFF /* CAShapeLayer+XYColorOC.m */; };
+		EA13FA032429EFC0000F4FFF /* UIView+PrivateView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13FA022429EFC0000F4FFF /* UIView+PrivateView.m */; };
+		EA13FA062429EFCE000F4FFF /* _XYColor_PrivateView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13FA042429EFCE000F4FFF /* _XYColor_PrivateView.m */; };
+		EA182AFA2435D312008B5395 /* DarkModeLoadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EA182AF92435D312008B5395 /* DarkModeLoadFile.m */; };
+		EA182AFD2435D740008B5395 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = EA182AFC2435D740008B5395 /* UIImage+Resize.m */; };
+		EA3B86AD243C6896000C489D /* DSCallInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B86A6243C6896000C489D /* DSCallInfo.m */; };
+		EA3B86AE243C6896000C489D /* InternalApis.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B86AA243C6896000C489D /* InternalApis.m */; };
+		EA3B86AF243C6896000C489D /* JSBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B86AB243C6896000C489D /* JSBUtil.m */; };
+		EA3B86B0243C6896000C489D /* DWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B86AC243C6896000C489D /* DWKWebView.m */; };
+		EA3B86B5243C68AE000C489D /* XYZQBaseWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B86B1243C68AE000C489D /* XYZQBaseWKWebView.m */; };
+		EA3B86B6243C68AE000C489D /* XYZQBaseWKWebViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B86B2243C68AE000C489D /* XYZQBaseWKWebViewPlugin.m */; };
+		EA3B86B9243C6932000C489D /* SwizzeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B86B8243C6932000C489D /* SwizzeMethod.m */; };
+		EA3B86C1243D7C44000C489D /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B86C0243D7C44000C489D /* Aspects.m */; };
+		EA3B86C4243D7CE7000C489D /* AspectsApiTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B86C3243D7CE7000C489D /* AspectsApiTest.m */; };
+		EAAE2D742432DF6B003A32CD /* UIView+XYLayerColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE2D722432DF6B003A32CD /* UIView+XYLayerColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA13F9E12429EECE000F4FFF /* darkModeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = darkModeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA13F9E42429EECE000F4FFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA13F9E52429EECE000F4FFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA13F9E72429EECE000F4FFF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EA13F9E82429EECE000F4FFF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EA13F9EA2429EECE000F4FFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA13F9EB2429EECE000F4FFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA13F9EE2429EECE000F4FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA13F9F02429EED2000F4FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA13F9F32429EED2000F4FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA13F9F52429EED2000F4FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA13F9F62429EED2000F4FFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA13F9FE2429EFB2000F4FFF /* CAShapeLayer+XYColorOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+XYColorOC.m"; sourceTree = "<group>"; };
+		EA13F9FF2429EFB2000F4FFF /* CAShapeLayer+XYColorOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+XYColorOC.h"; sourceTree = "<group>"; };
+		EA13FA012429EFC0000F4FFF /* UIView+PrivateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PrivateView.h"; sourceTree = "<group>"; };
+		EA13FA022429EFC0000F4FFF /* UIView+PrivateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PrivateView.m"; sourceTree = "<group>"; };
+		EA13FA042429EFCE000F4FFF /* _XYColor_PrivateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _XYColor_PrivateView.m; sourceTree = "<group>"; };
+		EA13FA052429EFCE000F4FFF /* _XYColor_PrivateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XYColor_PrivateView.h; sourceTree = "<group>"; };
+		EA182AF82435D312008B5395 /* DarkModeLoadFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkModeLoadFile.h; sourceTree = "<group>"; };
+		EA182AF92435D312008B5395 /* DarkModeLoadFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkModeLoadFile.m; sourceTree = "<group>"; };
+		EA182AFB2435D740008B5395 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		EA182AFC2435D740008B5395 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		EA3B86A4243C6896000C489D /* dsbridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsbridge.h; sourceTree = "<group>"; };
+		EA3B86A5243C6896000C489D /* InternalApis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternalApis.h; sourceTree = "<group>"; };
+		EA3B86A6243C6896000C489D /* DSCallInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCallInfo.m; sourceTree = "<group>"; };
+		EA3B86A7243C6896000C489D /* JSBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBUtil.h; sourceTree = "<group>"; };
+		EA3B86A8243C6896000C489D /* DWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWKWebView.h; sourceTree = "<group>"; };
+		EA3B86A9243C6896000C489D /* DSCallInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCallInfo.h; sourceTree = "<group>"; };
+		EA3B86AA243C6896000C489D /* InternalApis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternalApis.m; sourceTree = "<group>"; };
+		EA3B86AB243C6896000C489D /* JSBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBUtil.m; sourceTree = "<group>"; };
+		EA3B86AC243C6896000C489D /* DWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWKWebView.m; sourceTree = "<group>"; };
+		EA3B86B1243C68AE000C489D /* XYZQBaseWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZQBaseWKWebView.m; sourceTree = "<group>"; };
+		EA3B86B2243C68AE000C489D /* XYZQBaseWKWebViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZQBaseWKWebViewPlugin.m; sourceTree = "<group>"; };
+		EA3B86B3243C68AE000C489D /* XYZQBaseWKWebViewPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZQBaseWKWebViewPlugin.h; sourceTree = "<group>"; };
+		EA3B86B4243C68AE000C489D /* XYZQBaseWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZQBaseWKWebView.h; sourceTree = "<group>"; };
+		EA3B86B7243C6931000C489D /* SwizzeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzeMethod.h; sourceTree = "<group>"; };
+		EA3B86B8243C6932000C489D /* SwizzeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzeMethod.m; sourceTree = "<group>"; };
+		EA3B86BF243D7C44000C489D /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		EA3B86C0243D7C44000C489D /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		EA3B86C2243D7CE7000C489D /* AspectsApiTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AspectsApiTest.h; sourceTree = "<group>"; };
+		EA3B86C3243D7CE7000C489D /* AspectsApiTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AspectsApiTest.m; sourceTree = "<group>"; };
+		EAAE2D722432DF6B003A32CD /* UIView+XYLayerColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYLayerColor.m"; sourceTree = "<group>"; };
+		EAAE2D732432DF6B003A32CD /* UIView+XYLayerColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XYLayerColor.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA13F9DE2429EECE000F4FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA13F9D82429EECE000F4FFF = {
+			isa = PBXGroup;
+			children = (
+				EA13F9E32429EECE000F4FFF /* darkModeTest */,
+				EA13F9E22429EECE000F4FFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA13F9E22429EECE000F4FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F9E12429EECE000F4FFF /* darkModeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA13F9E32429EECE000F4FFF /* darkModeTest */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B86BE243D7C44000C489D /* Aspects */,
+				EA3B86A3243C6896000C489D /* dsbridge */,
+				EA182AF72435D2DF008B5395 /* LoadFile */,
+				EA13F9FD2429EF9D000F4FFF /* XYColorOC */,
+				EA13F9E42429EECE000F4FFF /* AppDelegate.h */,
+				EA13F9E52429EECE000F4FFF /* AppDelegate.m */,
+				EA13F9E72429EECE000F4FFF /* SceneDelegate.h */,
+				EA13F9E82429EECE000F4FFF /* SceneDelegate.m */,
+				EA13F9EA2429EECE000F4FFF /* ViewController.h */,
+				EA13F9EB2429EECE000F4FFF /* ViewController.m */,
+				EA13F9ED2429EECE000F4FFF /* Main.storyboard */,
+				EA13F9F02429EED2000F4FFF /* Assets.xcassets */,
+				EA13F9F22429EED2000F4FFF /* LaunchScreen.storyboard */,
+				EA13F9F52429EED2000F4FFF /* Info.plist */,
+				EA13F9F62429EED2000F4FFF /* main.m */,
+				EA3B86C2243D7CE7000C489D /* AspectsApiTest.h */,
+				EA3B86C3243D7CE7000C489D /* AspectsApiTest.m */,
+			);
+			path = darkModeTest;
+			sourceTree = "<group>";
+		};
+		EA13F9FD2429EF9D000F4FFF /* XYColorOC */ = {
+			isa = PBXGroup;
+			children = (
+				EA13FA052429EFCE000F4FFF /* _XYColor_PrivateView.h */,
+				EA13FA042429EFCE000F4FFF /* _XYColor_PrivateView.m */,
+				EA13FA012429EFC0000F4FFF /* UIView+PrivateView.h */,
+				EA13FA022429EFC0000F4FFF /* UIView+PrivateView.m */,
+				EA13F9FF2429EFB2000F4FFF /* CAShapeLayer+XYColorOC.h */,
+				EA13F9FE2429EFB2000F4FFF /* CAShapeLayer+XYColorOC.m */,
+				EAAE2D732432DF6B003A32CD /* UIView+XYLayerColor.h */,
+				EAAE2D722432DF6B003A32CD /* UIView+XYLayerColor.m */,
+			);
+			path = XYColorOC;
+			sourceTree = "<group>";
+		};
+		EA182AF72435D2DF008B5395 /* LoadFile */ = {
+			isa = PBXGroup;
+			children = (
+				EA182AFB2435D740008B5395 /* UIImage+Resize.h */,
+				EA182AFC2435D740008B5395 /* UIImage+Resize.m */,
+				EA182AF82435D312008B5395 /* DarkModeLoadFile.h */,
+				EA182AF92435D312008B5395 /* DarkModeLoadFile.m */,
+			);
+			path = LoadFile;
+			sourceTree = "<group>";
+		};
+		EA3B86A3243C6896000C489D /* dsbridge */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B86B7243C6931000C489D /* SwizzeMethod.h */,
+				EA3B86B8243C6932000C489D /* SwizzeMethod.m */,
+				EA3B86B4243C68AE000C489D /* XYZQBaseWKWebView.h */,
+				EA3B86B1243C68AE000C489D /* XYZQBaseWKWebView.m */,
+				EA3B86B3243C68AE000C489D /* XYZQBaseWKWebViewPlugin.h */,
+				EA3B86B2243C68AE000C489D /* XYZQBaseWKWebViewPlugin.m */,
+				EA3B86A4243C6896000C489D /* dsbridge.h */,
+				EA3B86A5243C6896000C489D /* InternalApis.h */,
+				EA3B86A6243C6896000C489D /* DSCallInfo.m */,
+				EA3B86A7243C6896000C489D /* JSBUtil.h */,
+				EA3B86A8243C6896000C489D /* DWKWebView.h */,
+				EA3B86A9243C6896000C489D /* DSCallInfo.h */,
+				EA3B86AA243C6896000C489D /* InternalApis.m */,
+				EA3B86AB243C6896000C489D /* JSBUtil.m */,
+				EA3B86AC243C6896000C489D /* DWKWebView.m */,
+			);
+			path = dsbridge;
+			sourceTree = "<group>";
+		};
+		EA3B86BE243D7C44000C489D /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B86BF243D7C44000C489D /* Aspects.h */,
+				EA3B86C0243D7C44000C489D /* Aspects.m */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA13F9E02429EECE000F4FFF /* darkModeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA13F9FA2429EED2000F4FFF /* Build configuration list for PBXNativeTarget "darkModeTest" */;
+			buildPhases = (
+				EA13F9DD2429EECE000F4FFF /* Sources */,
+				EA13F9DE2429EECE000F4FFF /* Frameworks */,
+				EA13F9DF2429EECE000F4FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = darkModeTest;
+			productName = darkModeTest;
+			productReference = EA13F9E12429EECE000F4FFF /* darkModeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA13F9D92429EECE000F4FFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = XW;
+				TargetAttributes = {
+					EA13F9E02429EECE000F4FFF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = EA13F9DC2429EECE000F4FFF /* Build configuration list for PBXProject "darkModeTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA13F9D82429EECE000F4FFF;
+			productRefGroup = EA13F9E22429EECE000F4FFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA13F9E02429EECE000F4FFF /* darkModeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA13F9DF2429EECE000F4FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13F9F42429EED2000F4FFF /* LaunchScreen.storyboard in Resources */,
+				EA13F9F12429EED2000F4FFF /* Assets.xcassets in Resources */,
+				EA13F9EF2429EECE000F4FFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA13F9DD2429EECE000F4FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13FA062429EFCE000F4FFF /* _XYColor_PrivateView.m in Sources */,
+				EA182AFA2435D312008B5395 /* DarkModeLoadFile.m in Sources */,
+				EA3B86AF243C6896000C489D /* JSBUtil.m in Sources */,
+				EA3B86B5243C68AE000C489D /* XYZQBaseWKWebView.m in Sources */,
+				EAAE2D742432DF6B003A32CD /* UIView+XYLayerColor.m in Sources */,
+				EA3B86B9243C6932000C489D /* SwizzeMethod.m in Sources */,
+				EA3B86B6243C68AE000C489D /* XYZQBaseWKWebViewPlugin.m in Sources */,
+				EA13F9EC2429EECE000F4FFF /* ViewController.m in Sources */,
+				EA13FA032429EFC0000F4FFF /* UIView+PrivateView.m in Sources */,
+				EA13FA002429EFB2000F4FFF /* CAShapeLayer+XYColorOC.m in Sources */,
+				EA13F9E62429EECE000F4FFF /* AppDelegate.m in Sources */,
+				EA3B86C1243D7C44000C489D /* Aspects.m in Sources */,
+				EA3B86B0243C6896000C489D /* DWKWebView.m in Sources */,
+				EA3B86AE243C6896000C489D /* InternalApis.m in Sources */,
+				EA13F9F72429EED2000F4FFF /* main.m in Sources */,
+				EA13F9E92429EECE000F4FFF /* SceneDelegate.m in Sources */,
+				EA3B86C4243D7CE7000C489D /* AspectsApiTest.m in Sources */,
+				EA3B86AD243C6896000C489D /* DSCallInfo.m in Sources */,
+				EA182AFD2435D740008B5395 /* UIImage+Resize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA13F9ED2429EECE000F4FFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA13F9EE2429EECE000F4FFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA13F9F22429EED2000F4FFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA13F9F32429EED2000F4FFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA13F9F82429EED2000F4FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA13F9F92429EED2000F4FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA13F9FB2429EED2000F4FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5363SENN6N;
+				INFOPLIST_FILE = darkModeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaowei.webView.darkModeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA13F9FC2429EED2000F4FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5363SENN6N;
+				INFOPLIST_FILE = darkModeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaowei.webView.darkModeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA13F9DC2429EECE000F4FFF /* Build configuration list for PBXProject "darkModeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA13F9F82429EED2000F4FFF /* Debug */,
+				EA13F9F92429EED2000F4FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA13F9FA2429EED2000F4FFF /* Build configuration list for PBXNativeTarget "darkModeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA13F9FB2429EED2000F4FFF /* Debug */,
+				EA13F9FC2429EED2000F4FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA13F9D92429EECE000F4FFF /* Project object */;
+}
